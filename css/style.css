@@ -63,7 +63,7 @@ animation: moveInLeft .7s ease-out ;
   font-size: 20px;
   font-weight: 700 ;
   letter-spacing: 17px;
-animation: moveInRight .7s ease-out;
+  animation: moveInRight .7s ease-out;
 }
 
 .text-box{
@@ -71,6 +71,7 @@ animation: moveInRight .7s ease-out;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 @keyframes moveInLeft{
@@ -100,4 +101,28 @@ transform: translate(0);
     transform: translate(0);
     /* transform: translate(0)  rotate(-180deg); */
   }
+}
+
+.btn:link,
+.btn:visited{
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  transition: all .2s;
+}
+.btn:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.btn:active{
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white{
+  margin-top: 60px;
+  color: #777;
+  background:#fff;
+  border-radius: 100px;
 }
