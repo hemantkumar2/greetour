@@ -14,7 +14,7 @@ box-sizing: border-box;
 }
 
 html{
-  font-size: 10px;
+  font-size: 62.5%;
 }
 
 body{
@@ -23,7 +23,7 @@ body{
   font-weight: 400;
   line-height: 1.7;
   color: #777;
-  padding: 30px;
+  padding: 3rem;
 }
 
 .header{
