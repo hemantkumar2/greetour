@@ -37,8 +37,8 @@ body{
   height: 95vh;
   background-image: linear-gradient(
     to right bottom,
-   hsla(111, 55%, 64%, 0.8),
-  hsla(160, 64%, 43%, 0.8)), 
+   rgba($color-primary-light, 0.8),
+  rgba($color-primary-dark, 0.8)), 
   url(../img/hero.jpg);
   background-size: cover;
   background-position: top;
