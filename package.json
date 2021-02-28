@@ -1,0 +1,23 @@
+{
+  "name": "greetour",
+  "version": "1.0.0",
+  "description": "Exciting Nature tours for adventurous people!",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemantkumar2/greetour.git"
+  },
+  "author": "hemant nirmalkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hemantkumar2/greetour/issues"
+  },
+  "homepage": "https://github.com/hemantkumar2/greetour#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
